@@ -1250,7 +1250,7 @@ footer {
 
 
 
-        row-gap: 70px;
+        row-gap: 150px;
         padding: 40px;
         width: 100%;
     }
@@ -1571,7 +1571,9 @@ footer {
         font-size: 20px;
     }
 
-
+    .service4 {
+        padding: 0px;
+    }
 
     .service5 {
         padding: 0px;
@@ -1670,6 +1672,9 @@ footer {
         font-size: 26px;
     }
 
+    .img-container-footer {
+        justify-content: center;
+    }
 
 
     .navbar-top {
@@ -1679,7 +1684,269 @@ footer {
 }
 
 
+@media (max-width: 520px) {
 
+
+    .navbar-top {
+        padding: 0px;
+    }
+
+    .navbar-flex-axis-y {
+        padding: 0px;
+    }
+
+    .navbar-flex-axis-x {
+        padding: 0px;
+    }
+
+    .navbar-img {
+        height: 30px;
+    }
+
+    .navbar-buttons {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+
+    .grid1-title1 {
+        font-size: 24px;
+    }
+
+    .grid1-text1 {
+        font-size: 18px;
+    }
+
+    .grid1-text2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+
+    .grid-2 {
+        row-gap: 20px;
+    }
+
+
+    .grid2-title1 {
+        font-size: 25px;
+        line-height: 1px;
+
+    }
+
+    .grid2-title2 {
+        font-size: 30px;
+    }
+
+    .grid2-text1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .our-services {
+        white-space: normal;
+        padding: 0px 30px;
+
+        font-size: 34px;
+    }
+
+
+
+    .services-grid {
+        padding: 40px 15px;
+    }
+
+
+    .service4 {
+        grid-template-columns: 70% 30%;
+        grid-template-rows: auto;
+
+        row-gap: 3%;
+
+        grid-template-areas:
+            'title1 nothing1'
+            'title1 nothing2'
+            'text1 text1'
+            'img1 text2'
+            'text3 text3';
+    }
+
+    .text2-service4 {
+        font-size: 17px;
+    }
+
+
+    .service5 {
+        grid-template-columns: 40% 20% 40%;
+        grid-template-rows: min-content min-content min-content min-content min-content;
+
+        grid-template-areas:
+            'title1 title1 nothing1'
+            'title1 title1 nothing2'
+            'text1 text1 text1'
+            'text2 img1 img1'
+            'text3 img1 img1'
+            'text4 text4 text4';
+    }
+
+    .img1-service5 {
+        width: 100%;
+    }
+
+
+
+
+    .downloads-grid {
+        padding: 50px;
+    }
+
+
+
+    .navbar-top {
+        background-color: #0018a0;
+    }
+}
+
+
+
+@media (max-width: 475px) {
+
+
+    .container-1 {
+        --pading-base: 20px;
+    }
+
+    .container-2 {
+        padding: 20px 30px 45px;
+    }
+
+    .grid-2 {
+        grid-template-areas:
+            'title1 title1 title1 title1 title1'
+            'text1 text1 text1 img2 img2'
+            'text1 text1 text1 img2 img2'
+            'text2 text2 text2 text2 text2';
+    }
+
+    .grid2-title2 {
+        white-space: normal;
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .grid2-title1 {
+        line-height: 27px;
+
+        white-space: normal;
+        font-size: 22px;
+    }
+
+    .services-grid {
+        padding: 40px 7px;
+    }
+
+    .title-service3 {
+        white-space: normal;
+    }
+
+    .service5 {
+        grid-template-areas:
+            'title1 title1 title1'
+            'title1 title1 title1'
+            'text1 text1 text1'
+            'text2 img1 img1'
+            'text3 img1 img1'
+            'text4 text4 text4';
+    }
+
+    .title-service5 {
+        white-space: normal;
+    }
+
+    .container-custom-2 {
+        padding: 0px;
+    }
+
+    .downloads-grid {
+        /* padding: 20px 10px; */
+    }
+
+
+    .download-element-text {
+        font-size: 16px;
+        text-align: c;
+    }
+
+
+    .navbar-top {
+        background-color: #00ebc4;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .service1 {
+        grid-template-columns: 46% 17% 27%;
+        grid-template-areas:
+            'title1 title1 nothing1 '
+            'text1 img1 img1 '
+            'text2 text2 text2 ';
+    }
+
+    .img1-service1 {
+        object-fit: contain;
+        width: 100%;
+
+        padding: 0px;
+    }
+
+    .container-grid-1 {
+        grid-template-columns: 50% 0% 10% 40%;
+        grid-template-areas:
+            'title1 title1 title1 title1 '
+            'title2 title2 title2 title2 '
+            'text1 text1 img1 img1 '
+            'text2 text2 text2 text2 '
+            'text2 text2 text2 text2 ';
+    }
+
+    .grid1-title1 {
+        white-space: normal;
+    }
+    .grid1-title2 {
+        margin-bottom: 15px;
+        white-space: normal;
+    }
+    
+
+    .container-3 {
+        padding: 0px 10px;
+    }
+
+    .service3 {
+        grid-template-columns: 50% 42%;
+        grid-template-rows: min-content min-content min-content;
+        grid-template-areas:
+            'upper upper '
+            'img1 text2 '
+            'text3 text3 ';
+    }
+
+
+    .text2-service3 {
+        font-size: 16px;
+    }
+
+    .downloads-grid {
+        padding: 25px;
+    }
+
+
+    .navbar-top {
+        background-color: #66ff00;
+    }
+}
 
 
 
