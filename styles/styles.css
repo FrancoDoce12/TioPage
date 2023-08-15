@@ -876,14 +876,6 @@ footer {
 
 
 
-@media (max-width: 1400px) {
-
-
-    .navbar-top {
-        background-color: #3BD2F5;
-    }
-
-}
 
 @media (max-width: 1200px) {
 
@@ -1069,16 +1061,10 @@ footer {
     }
 
 
-
     /* Presencia en la web */
     .service5 {
         grid-template-columns: 30% 30% 40%;
     }
-
-
-    .img1-service4-container-axis-y {}
-
-    .img1-service4-container-axis-x {}
 
 
     .img1-service5 {
@@ -1111,23 +1097,8 @@ footer {
     }
 
 
-
-
-    .navbar-top {
-        background-color: #3bf598;
-    }
-
 }
 
-/* 
-
-@media (max-width: 1167px) {
-    
-    .navbar-top {
-        background-color: #cdf53b;
-    }
-}
- */
 
 @media (max-width: 992px) {
 
@@ -1160,22 +1131,6 @@ footer {
             'text2       text2      text2       text2  '
         ;
 
-
-
-
-        /* 
-
-
-        overflow: visible;
-        height: auto;
-        width: 100%;
-
-        display: grid;
-
-        column-gap: 0px;
-        row-gap: 0px;
-
-        grid-template-rows: repeat(auto, 5); */
 
     }
 
@@ -1442,11 +1397,6 @@ footer {
     }
 
 
-
-
-    .navbar-top {
-        background-color: #f5703b;
-    }
 }
 
 @media (max-width: 768px) {
@@ -1629,16 +1579,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-    .navbar-top {
-        background-color: #f53bec;
-    }
 }
 
 @media (max-width: 576px) {
@@ -1676,10 +1616,6 @@ footer {
         justify-content: center;
     }
 
-
-    .navbar-top {
-        background-color: #823bf5;
-    }
 
 }
 
@@ -1793,18 +1729,10 @@ footer {
         width: 100%;
     }
 
-
-
-
     .downloads-grid {
         padding: 50px;
     }
 
-
-
-    .navbar-top {
-        background-color: #0018a0;
-    }
 }
 
 
@@ -1870,9 +1798,6 @@ footer {
         padding: 0px;
     }
 
-    .downloads-grid {
-        /* padding: 20px 10px; */
-    }
 
 
     .download-element-text {
@@ -1902,10 +1827,6 @@ footer {
         width: 80%;
     }
 
-
-    .navbar-top {
-        background-color: #00ebc4;
-    }
 }
 
 
@@ -1996,10 +1917,6 @@ footer {
         width: 90%;
     }
 
-
-    .navbar-top {
-        background-color: #516841;
-    }
 }
 
 @media (max-width: 389px) {
@@ -2170,9 +2087,6 @@ footer {
         width: min-content;
     }
 
-    .navbar-top {
-        background-color: #3004f7;
-    }
 }
 
 
@@ -2282,9 +2196,6 @@ footer {
     
     
 
-    .navbar-top {
-        background-color: #f7047e;
-    }
 }
 
 
