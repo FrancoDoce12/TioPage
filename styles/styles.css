@@ -2165,6 +2165,11 @@ footer {
         margin-top: 20px;
     }
 
+    .download-element-text {
+        text-align: center;
+        width: min-content;
+    }
+
     .navbar-top {
         background-color: #3004f7;
     }
@@ -2173,12 +2178,12 @@ footer {
 
 @media (max-width: 320px) {
 
-    .container-1 {
-        padding: 23px;
+    .hero-button {
+        white-space: normal;
     }
 
-    .container-3 {
-        /* padding-right: 5px; */
+    .container-1 {
+        padding: 23px;
     }
 
     .grid-2 {
@@ -2209,6 +2214,10 @@ footer {
     .title-service2 {
         text-align: start;
         margin: 0px 0px 20px 0px;
+    }
+
+    .text-service2 {
+        font-size: 19px;
     }
 
     .service3 {
@@ -2258,9 +2267,20 @@ footer {
         width: 100%;
     }
 
+    .downloads-title {
+        font-size: 25px;
+    }
+
     .navbar-downloads {
         display: none;
     }
+
+    .img-footer-dielec-logo {
+        object-fit: contain;
+        width: 90%;
+    }
+    
+    
 
     .navbar-top {
         background-color: #f7047e;
