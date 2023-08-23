@@ -804,9 +804,6 @@ footer {
     height: 70%;
 }
 
-/* .img-container-footer {
-    width: 50%;
-} */
 
 .flex-dielec-info {
     padding: 0px;
@@ -817,7 +814,7 @@ footer {
 }
 
 .footer-text {
-    color: #5C778E;
+    color: #c9c9c9;
 
     font-weight: 600;
     font-size: 18px;
@@ -827,7 +824,7 @@ footer {
 }
 
 .copyRight {
-    color: #5C778E;
+    color: #c9c9c9;
     font-weight: 500;
 
     text-align: start;
@@ -840,8 +837,28 @@ footer {
 
 
 .contact-title {
-    font-size: 50px;
+    color: #d8d8d8;
+    font-size: 40px;
     font-weight: 700;
+
+    align-self: center;
+}
+
+.contact-item {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-item a {
+    display: block;
+}
+.contact-item a span {
+    margin: 0px;
+}
+
+.data-fiscal-img{
+    width: 20%;
 }
 
 
@@ -1554,6 +1571,8 @@ footer {
     .footer-text {
         padding-right: 40px;
     }
+
+    
 
 
 
