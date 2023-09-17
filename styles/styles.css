@@ -2,6 +2,10 @@
     font-family: Roboto-Mono;
     src: url("../assets/fonts/RobotoMono-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: Arrimo;
+    src: url("../assets/fonts/Arimo-VariableFont_wght.ttf");
+}
 
 :root {
     --light-blue-1: #3BD2F5;
@@ -97,9 +101,39 @@ body {
     text-shadow: 0px 0px 10px black;
 }
 
-.hero-logo img {
-    height: 90px;
+
+.header-container, .header-container * {
+    font-family: Arrimo;
+    white-space: normal;
 }
+
+.header-title {
+    white-space: nowrap;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.header-container {
+    height: min-content;
+
+    font-style:  italic;
+    font-weight: bolder;
+    text-align:  center;
+}
+
+.header-container .hero-header-blue {
+    color: #3BD2F5;
+}
+
+.hero-header-description {
+    display: block;
+    font-size: 17px;
+    line-height: normal;
+}
+
+/* .hero-logo img {
+    height: 90px;
+} */
 
 .service-button {
     display: inline;
@@ -842,7 +876,7 @@ footer {
 .contact-flex {
     padding: 0px 20px;
     /* margin: 0px 10px; */
-} 
+}
 
 
 .contact-title {
@@ -864,7 +898,8 @@ footer {
 
     margin: auto;
 }
-.contact-item *{
+
+.contact-item * {
     display: inline;
     width: auto;
 
@@ -879,6 +914,7 @@ footer {
 .contact-contact {
     font-size: 0px;
 }
+
 .contact-contact * {
     font-size: 16px;
     color: #bbbbbb;
@@ -889,7 +925,8 @@ footer {
     color: #ffffff;
 }
 
-.contact-item:hover .contact-contact *,.contact-item:hover .contact-icon {
+.contact-item:hover .contact-contact *,
+.contact-item:hover .contact-icon {
     text-shadow: 0px 0px 12px #3BD2F5;
     color: #3BD2F5;
     transition: all 300ms;
@@ -899,7 +936,7 @@ footer {
 }
 
 
-.data-fiscal-img{
+.data-fiscal-img {
     width: 20%;
 }
 
@@ -1132,7 +1169,7 @@ footer {
         font-size: 19px;
     }
 
-    
+
 
 
 }
@@ -1418,9 +1455,9 @@ footer {
     }
 
     .download-element {
-        justify-content: space-around;    
+        justify-content: space-around;
     }
-    
+
 
     .download-element-text {
         font-size: 18px;
@@ -1440,11 +1477,11 @@ footer {
         font-size: 17px;
     }
 
-    .contact-description{
+    .contact-description {
         white-space: normal;
     }
 
-    .contact-contact *{
+    .contact-contact * {
         white-space: normal;
     }
 
@@ -1625,19 +1662,19 @@ footer {
         width: 100%;
         padding: 0px;
     }
-    
+
 
     .footer-text {
         padding-right: 40px;
     }
 
-    
 
-    .contact-description{
+
+    .contact-description {
         white-space: nowrap;
     }
 
-    .contact-contact *{
+    .contact-contact * {
         white-space: nowrap;
     }
 
@@ -1645,7 +1682,7 @@ footer {
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    
+
 
 
 
@@ -1901,7 +1938,8 @@ footer {
         font-size: 40px;
     }
 
-    .contact-contact, .contact-description {
+    .contact-contact,
+    .contact-description {
         white-space: normal;
     }
 
@@ -1999,6 +2037,10 @@ footer {
 }
 
 @media (max-width: 389px) {
+    .header-title {
+        font-size: 60px;
+        line-height: 60px;
+    }
 
     .hero-description {
         line-height: 20px;
@@ -2173,6 +2215,14 @@ footer {
 
 @media (max-width: 320px) {
 
+    .header-title {
+        font-size: 50px;
+        line-height: 46px;
+    }
+    .hero-header-description {
+        font-size: 16px;
+    }
+
     .hero-logo img {
         height: 64px;
     }
@@ -2279,8 +2329,6 @@ footer {
         object-fit: contain;
         width: 90%;
     }
-
-
 
 }
 
