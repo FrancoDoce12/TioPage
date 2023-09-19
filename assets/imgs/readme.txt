@@ -1,0 +1,1 @@
+the logos of dowloables files shuld have a proportion of 60 widht, 38 height
